@@ -1,7 +1,7 @@
 //找出数组中和为目标值的两个数 
 #include<iostream>
+//#define N 5;
 using namespace std;
-
 
 /**
  * 首先想到的肯定是拿第一个元素与后面的依次加，看是否等于目标值，
@@ -65,22 +65,31 @@ int[] twoSum2(int[] nums, int target) {
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+int main()
+{
+	//定义返回值back[]
+	int N=4;
+	int nums[N];
+	for(int i=0;i<N;i++)
+	{
+		cin>>nums[i];
+	}
+	int target; 
+	cin>>target;
+	//两个for循环遍历原数组，每次拿两个数判断条件是否满足 
+	/* 
+	for (int i = 0; i < N-1; i++)
+	{
+		for (int j = i + 1; j < N; j++)
+		{
+			if (target==nums[i] + nums[j] )
+				cout<<'['<<i<<','<<j<<']';
+		}
+	}
+	*/ 
+	
+	return 0;
+}
 
 
 
