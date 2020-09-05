@@ -1,0 +1,22 @@
+﻿生成启动时间为 2020/9/5 15:51:40。
+     1>项目“H:\MyFile\算法\20200905\20200905\20200905.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>h:\myfile\算法\20200905\20200905\main.cpp(37): error C2144: 语法错误:“int”的前面应有“:”
+     1>h:\myfile\算法\20200905\20200905\main.cpp(37): error C2146: 语法错误: 缺少“)”(在标识符“nums”的前面)
+     1>h:\myfile\算法\20200905\20200905\main.cpp(37): error C3646: “nums”: 未知重写说明符
+     1>h:\myfile\算法\20200905\20200905\main.cpp(37): error C2062: 意外的类型“int”
+     1>h:\myfile\算法\20200905\20200905\main.cpp(37): error C2059: 语法错误:“{”
+     1>h:\myfile\算法\20200905\20200905\main.cpp(37): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>h:\myfile\算法\20200905\20200905\main.cpp(18): error C2039: “length”: 不是“std::vector<int,std::allocator<_Ty>>”的成员
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>h:\myfile\算法\20200905\20200905\main.cpp(18): error C2660: “Solution::couRange”: 函数不接受 3 个参数
+     1>已完成生成项目“H:\MyFile\算法\20200905\20200905\20200905.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.64
