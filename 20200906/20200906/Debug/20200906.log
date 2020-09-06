@@ -1,0 +1,135 @@
+﻿生成启动时间为 2020/9/6 21:38:16。
+     1>项目“H:\MyFile\算法\20200906\20200906\20200906.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(371): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(584): 参见对正在编译的类 模板 实例化“std::iterator_traits<_InIt>”的引用
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(3155): 参见对正在编译的函数 模板 实例化“void std::_Debug_range<_RanIt>(_InIt,_InIt,std::_Dbfile_t,std::_Dbline_t)”的引用
+                 with
+                 [
+                     _RanIt=int
+         ,            _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\algorithm(3164): 参见对正在编译的函数 模板 实例化“void std::sort<_RanIt,std::less<void>>(_RanIt,_RanIt,_Pr)”的引用
+                 with
+                 [
+                     _RanIt=int
+         ,            _Pr=std::less<void>
+                 ]
+                 h:\myfile\算法\20200906\20200906\main.cpp(85): 参见对正在编译的函数 模板 实例化“void std::sort<int>(_RanIt,_RanIt)”的引用
+                 with
+                 [
+                     _RanIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(371): error C2039: “iterator_category”: 不是“`global namespace'”的成员
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(371): error C2146: 语法错误: 缺少“;”(在标识符“iterator_category”的前面)
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(371): error C2602: “std::iterator_traits<_InIt>::iterator_category”不是“std::iterator_traits<_InIt>”基类的成员
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(371) : 参见“std::iterator_traits<_InIt>::iterator_category”的声明
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(371): error C2868: “std::iterator_traits<_InIt>::iterator_category”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(372): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(372): error C2039: “value_type”: 不是“`global namespace'”的成员
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(372): error C2146: 语法错误: 缺少“;”(在标识符“value_type”的前面)
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(372): error C2602: “std::iterator_traits<_InIt>::value_type”不是“std::iterator_traits<_InIt>”基类的成员
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(372) : 参见“std::iterator_traits<_InIt>::value_type”的声明
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(372): error C2868: “std::iterator_traits<_InIt>::value_type”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(373): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(373): error C2039: “difference_type”: 不是“`global namespace'”的成员
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(373): error C2146: 语法错误: 缺少“;”(在标识符“difference_type”的前面)
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(373): error C2602: “std::iterator_traits<_InIt>::difference_type”不是“std::iterator_traits<_InIt>”基类的成员
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(373) : 参见“std::iterator_traits<_InIt>::difference_type”的声明
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(373): error C2868: “std::iterator_traits<_InIt>::difference_type”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(375): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(375): error C2039: “pointer”: 不是“`global namespace'”的成员
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(375): error C2146: 语法错误: 缺少“;”(在标识符“pointer”的前面)
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(375): error C2602: “std::iterator_traits<_InIt>::pointer”不是“std::iterator_traits<_InIt>”基类的成员
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(375) : 参见“std::iterator_traits<_InIt>::pointer”的声明
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(375): error C2868: “std::iterator_traits<_InIt>::pointer”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(376): error C2825: '_Iter': 当后面跟“::”时必须为类或命名空间
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(376): error C2039: “reference”: 不是“`global namespace'”的成员
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(376): error C2146: 语法错误: 缺少“;”(在标识符“reference”的前面)
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(376): error C2602: “std::iterator_traits<_InIt>::reference”不是“std::iterator_traits<_InIt>”基类的成员
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(376) : 参见“std::iterator_traits<_InIt>::reference”的声明
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(376): error C2868: “std::iterator_traits<_InIt>::reference”: 非法的 using 声明语法；应输入限定名
+                 with
+                 [
+                     _InIt=int
+                 ]
+     1>f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(584): error C2665: “std::_Debug_range2”: 2 个重载中没有一个可以转换所有参数类型
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(567): 可能是“void std::_Debug_range2<_InIt>(_RanIt,_RanIt,std::_Dbfile_t,std::_Dbline_t,std::random_access_iterator_tag)”
+                 with
+                 [
+                     _InIt=int
+         ,            _RanIt=int
+                 ]
+                 f:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(559): 或       “void std::_Debug_range2<_InIt>(_InIt,_InIt,std::_Dbfile_t,std::_Dbline_t,std::input_iterator_tag)”
+                 with
+                 [
+                     _InIt=int
+                 ]
+                 尝试匹配参数列表“(int, int, std::_Dbfile_t, std::_Dbline_t, int)”时
+     1>已完成生成项目“H:\MyFile\算法\20200906\20200906\20200906.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.35
